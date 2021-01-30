@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family:'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar-nav li{
+padding-right: 20px;
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.logo1{ 
+    width: 300px;
+    height: 100px;
+}
+
+.logo0Footer{
+    width: 200px;
+    height: 75px;
+}
+
+.logo2Footer{
+    width: 100px;
+    height: 100px;
+}
+
+footer ion-icon{
+    font-size: 4em;
+}
+
+@media (max-width: 404px){
+    .logo1{
+        width: 220px;
+        height: 75px;
+    }
+
+    .logo0Footer{
+        width: 200px;
+        height: 75px;
+    }
+    .logo2Footer{
+        width: 75px;
+        height: 75px;
+    }
+
+    footer ion-icon{
+        font-size: 2em;
+    }
+}
+
+header a{
+  font-size: 20px;
+}
+
+header{
+  margin-top: 10px;
+}
+
+.logo{
+  width: 20px;
+  height: 25px;
+}
+
+main div button img{
+  width: 15px;
+  height: 20px;
+}
+
+.filtros{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.filtro{
+  margin: 10px;
+}
+
+section{
+  margin: 10px 5px 30px 30px;
+}
+
+nav form{
+  position: relative;
+}
